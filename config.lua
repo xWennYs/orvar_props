@@ -9,4 +9,22 @@ Config.StreamRadius = 150.0
 Config.Props = {
     -- { model = 'prop_barrel_01a', coords = vec3(100.0, 200.0, 30.0), heading = 90.0 },
     -- { model = 'prop_bench_01a',  coords = vec3(120.0, 210.0, 30.0), heading = 0.0 },
+
+    -- With ox_target (optional). `target` = array of option tables:
+    -- {
+    --     model = 'prop_barrel_01a',
+    --     coords = vec3(100.0, 200.0, 30.0),
+    --     heading = 90.0,
+    --     target = {
+    --         {
+    --             name = 'orvar_barrel_use',
+    --             icon = 'fa-solid fa-hand',
+    --             label = 'Use barrel',
+    --             distance = 2.0,
+    --             onSelect = function(entity)
+    --                 print('used barrel', entity)
+    --             end,
+    --         },
+    --     },
+    -- },
 }

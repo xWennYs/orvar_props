@@ -4,7 +4,7 @@ game 'gta5'
 name 'orvar_props'
 author 'Orvar'
 description 'Static prop placer (client-only) with ox_lib points streaming'
-version '2.0.0'
+version '2.1.0'
 
 dependency 'ox_lib'
 
